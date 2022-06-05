@@ -273,6 +273,7 @@ footer {
 }
 
 .p1 {
+  margin-left: 50px;
   font-size: 12px;
   margin-bottom: 10px;
 }
@@ -308,16 +309,16 @@ footer li {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 50px;
-  border-radius: 20px;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
 }
 
 .devise select {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 50px;
-  border-radius: 20px;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
 }
