@@ -16,7 +16,7 @@
 
   <header>
     <div class="container">
-      <div class="header_big">
+      <nav>
         <div class="header__little1">
           <a href="https://www.tripadvisor.fr/">
             <img
@@ -52,7 +52,7 @@
             >
           </div>
         </div>
-      </div>
+      </nav>
     </div>
   </header>
 
@@ -90,10 +90,12 @@
       </section>
 
       <section class="section_2">
-        <div class="big_picture"></div>
-        <a href="./assets/img/img_1_big.jpeg"
-          ><img src="./assets/img/img_1.jpeg" alt="bord de seine"
-        /></a>
+        <div class="big_picture">
+          <a href="./assets/img/img_1_big.jpeg"
+            ><img src="./assets/img/img_1.jpeg" alt="bord de seine"
+          /></a>
+        </div>
+
         <div class="little_picture">
           <a href="./assets/img/img_2_BIG.jpeg"
             ><img src="./assets/img/img_2.jpeg" alt="couple en scooter"
@@ -151,11 +153,57 @@
           </p>
           <button>Creer un voyage</button>
 
-          <img src="./assets/img/img_coeurs.png" alt="paris osus les coeurs" />
+          <img src="./assets/img/img_coeurs.png" alt="paris sous les coeurs" />
         </div>
       </section>
     </div>
   </body>
 
-  <footer></footer>
+  <footer>
+    <div class="footer_left">
+      <p class="p1">2022 TripAdvisor LLC Tous droits réservés</p>
+      <ul class="ul">
+        <li>Conditions d'utilisation</li>
+        <li>Confidentialité et utilisation des cookies</li>
+      </ul>
+      <ul class="ul">
+        <li>Accord d'utilisation des cookies</li>
+        <li>Plan du site</li>
+        <li>Fonctionnement du site</li>
+      </ul>
+      <p class="p3">
+        Cette version de notre site internet s'adresse aux personnes parlant
+        français en France. Si vous habitez un autre pays ou une autre région,
+        merci de choisir la version de Tripadvisor appropriée pour votre pays ou
+        région dans le menu déroulant
+      </p>
+    </div>
+
+    <div class="footer_right">
+      <div class="devise">
+        <label for="devise"></label>
+        <select name="devise" id="devise">
+
+          <option value="EURO">EURO</option>
+          <option value="US DOLLAR">US DOLLAR</option>
+          <option value="FRANC CHF">FRANC CHF</option>
+          <option value="CND DOLLAR">CND DOLLAR</option>
+        </select>
+      </div>
+
+
+      <div class="country">
+
+        <label for="country"></label>
+        <select name="country" id="country">
+          <option value="USA">USA</option>
+          <option value="EURO">FRANCE</option>
+          <option value="SUISSE">SUISSE</option>
+          <option value="CANADA">CANADA</option>
+        </select>
+      </div>
+
+      </div>
+    </div>
+  </footer>
 </html>
