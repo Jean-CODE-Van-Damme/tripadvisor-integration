@@ -106,22 +106,23 @@ h1 {
 .section_1 {
   display: flex;
   justify-content: space-between;
-  align-items: space-between;
-  flex-wrap: wrap;
 
-  height: 105px;
+  /* flex-wrap: wrap; */
+  margin-bottom: 20px;
 }
 
 .Explorer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 270px;
-  height: 40px;
-  border: 2px black solid;
+  width: 180px;
+  height: 80px;
+  border: 1px black solid;
   border-radius: 10px;
   font-size: 16px;
   font-weight: bold;
+  box-sizing: border-box;
+  padding: 15px;
 }
 
 .Explorer:hover {
@@ -239,9 +240,9 @@ h3 {
   object-fit: cover;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  margin-bottom: 100px;
 }
 
-/* .red_part {
-  margin-bottom: 5px;
-  border: 2px green solid;
-} */
+.section_2 img:hover {
+  opacity: 0.5;
+}
