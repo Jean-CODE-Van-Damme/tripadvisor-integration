@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "police1";
+  src: url("../fonts/d6e9a635412f38422245a184983cd857.eot");
+  src: url("../fonts/d6e9a635412f38422245a184983cd857.svg")
+      format("embedded-opentype"),
+    url("../fonts/d6e9a635412f38422245a184983cd857.ttf") format("woff2"),
+    url("../fonts/d6e9a635412f38422245a184983cd857.woff") format("woff"),
+    url("../fonts/d6e9a635412f38422245a184983cd857.woff2") format("truetype"),
+    url("../fonts/demo.html") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Trip Sans";
+  src: url("../fonts/stylesheet.css");
+  src: url("../fonts/TripSans-Regular.eot") format("embedded-opentype"),
+    url("../fonts/TripSans-Regular.svg") format("woff2"),
+    url("../fonts/TripSans-Regular.ttf") format("woff"),
+    url("../fonts/TripSans-Regular.woff") format("truetype"),
+    url("../fonts/TripSans-Regular.woff2") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
