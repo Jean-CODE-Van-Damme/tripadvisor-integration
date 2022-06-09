@@ -1,14 +1,53 @@
+/* general */
+
 header {
   height: 110px;
   margin-top: 165px;
-  /* background-color: red; */
+}
+
+main {
+  height: auto;
+  padding: 60px 30px 60px 30px;
+}
+
+body {
+  font-family: "Trip sans regular", sans-serif;
 }
 
 .container {
   width: 1135px;
   margin: 0 auto;
-  /* background-color: blue; */
 }
+
+p {
+  font-family: "Trip sans Reg";
+  color: #333333;
+  opacity: 0.7;
+  margin-left: 5px;
+}
+
+h1 {
+  font-size: 54px;
+  color: #ff5d5d;
+  margin-bottom: 30px;
+  font-family: "Trip Sans Reg";
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+/* header */
 
 .logo {
   width: 190px;
@@ -18,6 +57,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__little1 {
@@ -42,9 +82,24 @@ nav {
   width: 350px;
   height: 40px;
   font-size: 16px;
+  opacity: 0.5;
+  position: relative;
+}
+
+.form {
+  position: relative;
+}
+
+.loupe {
+  position: absolute;
+  right: 320px;
+  top: 14px;
+  bottom: 10px;
+  font-size: 20px;
 }
 
 .connexion {
+  font-family: "Trip sans regular", sans-serif;
   display: flex;
   width: 150px;
   height: 40px;
@@ -54,11 +109,12 @@ nav {
   justify-content: center;
   align-items: center;
   font-size: 18px;
+  border: none;
 }
 
 .connexion a {
   text-decoration: none;
-  list-style-type: none;
+  color: black;
   color: white;
 }
 
@@ -73,7 +129,6 @@ nav {
 .liens i {
   margin: 8px;
   font-size: 30px;
-  /* list-style-type: none; */
 }
 
 .liens a {
@@ -91,11 +146,7 @@ nav {
   background-color: rgb(233, 228, 228);
 }
 
-h1 {
-  font-size: 54px;
-  color: #ff5d5d;
-  margin-bottom: 30px;
-}
+/* section 1 */
 
 .h1_part2 {
   font-size: 54px;
@@ -106,7 +157,6 @@ h1 {
 .section_1 {
   display: flex;
   justify-content: space-between;
-
   /* flex-wrap: wrap; */
   margin-bottom: 20px;
 }
@@ -119,16 +169,17 @@ h1 {
   height: 80px;
   border: 1px black solid;
   border-radius: 10px;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 18px;
   box-sizing: border-box;
   padding: 15px;
 }
 
 .Explorer:hover {
-  color: white;
   background-color: black;
+  color: white;
 }
+
+/* section 2 */
 
 .section_2 {
   height: 600px;
@@ -192,84 +243,240 @@ h1 {
   margin: 5px;
 }
 
+.section_2 img:hover {
+  opacity: 0.5;
+}
+
+/* section 3 */
+
 .section_3 {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }
 
-h2 {
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
 .left {
-  width: 567.5px;
+  width: 58%;
   height: 250px;
-
   line-height: 22px;
   font-size: 20px;
-  text-align: justify;
   margin-right: 40px;
 }
 
+.left p {
+  font-size: 16px;
+}
+
 .right {
-  width: 567.5px;
-  height: 250px;
-  line-height: 40px;
+  width: 42%;
+  height: 380px;
+  /* line-height: 30px; */
   font-size: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.redclass {
+  height: 60%;
   background-color: #fc5d5e;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  display: flex;
-  flex-direction: column;
+  padding: 40px 50px 40px 50px;
 }
 
 .right p {
-  font-size: 15px;
-  margin-left: 15px;
+  font-size: 16px;
 }
 
-h3 {
-  font-size: 22px;
-  font-weight: bold;
-  margin-bottom: 30px;
-  margin-left: 15px;
+.right h3 {
+  font-size: 26px;
+  margin-left: 0;
 }
 
 .right button {
-  border-radius: 10px;
+  border-radius: 20px;
   height: 60px;
   background-color: rgba(16, 14, 14, 0.783);
   color: white;
-  margin-bottom: 60px;
-  width: 150px;
-  margin-left: 15px;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 140px;
+
+  margin-top: 40px;
+  font-family: "Trip Sans Reg";
+  font-size: 14px;
+  border: none;
 }
 
 .right img {
-  width: 550px;
-  height: 200px;
+  width: 100%;
+  height: 40%;
   object-fit: contain;
   object-fit: cover;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+/* section 4 5 6 Paris  */
+
+.section_Paris {
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
-.section_2 img:hover {
+.bigdiv {
+  display: flex;
+}
+
+.bloc_text {
+  display: flex;
+  flex-direction: column;
+  /* line-height: 30px; */
+  width: 20%;
+  margin-right: 60px;
+}
+
+.bloc_text p {
+  margin-bottom: 20px;
+}
+
+.bloc_text a {
+  color: black;
+}
+
+.bloc_text a:hover {
+  opacity: 0.7;
+}
+
+.bloc_text h3 {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.bloc_photo {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.ticket {
+  width: 32%;
+  line-height: 20px;
+  position: relative;
+}
+
+.bristol {
+  height: 12.9rem;
+}
+
+.frenchie {
+  height: 12.9rem;
+}
+
+.ticket img {
+  width: 100%;
+}
+
+.ticket h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ticket p {
+  font-size: 14px;
+}
+
+.notation {
+  display: flex;
+}
+
+.notation p {
+  margin-left: 10px;
+}
+
+.notation i {
+  color: #1da96b;
+  margin-right: 1px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.heart {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+}
+
+.heart i {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 20px;
+}
+
+.arrow {
+  position: absolute;
+  top: 80px;
+  right: -30px;
+  font-size: 24px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px black solid;
+}
+
+.arrow i {
+  border: black;
+  position: absolute;
+  top: 8px;
+  right: 9px;
+}
+
+.michelin {
+  display: flex;
+  background-color: #faf1ed;
+  width: 40%;
+  margin-bottom: 5px;
+}
+
+.michelin img {
+  width: 20px;
+  height: 20px;
+}
+
+.michelin p {
+  color: #bd2233;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.section_Paris img:hover {
   opacity: 0.5;
 }
 
+.section_Paris h4:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+/* footer  */
+
 footer {
   background-color: #f9f1ec;
-  margin-top: 300px;
+  margin-top: 100px;
   display: flex;
   justify-content: space-between;
   padding: 20px 40px 20px 40px;
-  /* width: 100%; */
+  height: auto;
 }
 
 .p1 {
