@@ -3,6 +3,13 @@
 header {
   height: 110px;
   margin-top: 165px;
+  position: sticky;
+  width: 100vw;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background-color: white;
 }
 
 main {
@@ -333,7 +340,7 @@ nav {
   display: flex;
   flex-direction: column;
   /* line-height: 30px; */
-  width: 30%;
+  width: 32%;
   margin-right: 60px;
 }
 
@@ -358,10 +365,15 @@ nav {
   height: auto;
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 68%;
   gap: 10px;
   overflow-x: auto;
 }
+
+/* .bloc_photo::-webkit-scrollbar {
+  /* display: none; 
+ 
+} */
 
 .ticket {
   width: 32%;
@@ -370,16 +382,9 @@ nav {
   flex-shrink: 0;
 }
 
-.bristol {
-  height: 11.3rem;
-}
-
-.frenchie {
-  height: 11.3rem;
-}
-
 .ticket img {
   width: 100%;
+  height: 11.3rem;
 }
 
 .ticket h4 {
@@ -428,7 +433,7 @@ nav {
 .arrow {
   position: absolute;
   top: 80px;
-  right: -30px;
+  right: -10px;
   font-size: 24px;
   background-color: white;
   width: 40px;
@@ -491,17 +496,19 @@ footer {
 .p3 {
   font-size: 12px;
   margin-top: 10px;
+  width: 700px;
 }
 
 ul li {
   list-style-type: none;
+  margin-right: 20px;
 }
 
 .ul {
   width: 600px;
   display: flex;
   /* border: 2px black solid; */
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 footer li {
@@ -531,4 +538,9 @@ footer li {
   width: 120px;
   height: 30px;
   border-radius: 10px;
+}
+
+.logotrip {
+  float: left;
+  margin-right: 10px;
 }
