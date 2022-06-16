@@ -1086,4 +1086,55 @@ footer li {
     object-fit: cover;
     height: 300px;
   }
+  .michelin {
+    height: 5%;
+  }
+
+  .michelin img {
+    height: 100%;
+  }
+
+  .three_blocs {
+    height: 300px;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    align-items: center;
+  }
+  .three_blocs h4 {
+    font-size: 15px;
+  }
+
+  .big_ticket {
+    width: 80%;
+  }
+
+  .big_heart i {
+    left: 510px;
+  }
+
+  .big_ticket_2 {
+    width: 80%;
+  }
+
+  .big_heart_2 i {
+    left: 500px;
+  }
+
+  .big_bloc_photo_2 {
+    margin-bottom: 20px;
+  }
+
+  main {
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 690px) {
+  .Explorer {
+    font-size: 10px;
+  }
 }
