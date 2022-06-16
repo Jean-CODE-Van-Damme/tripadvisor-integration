@@ -1126,6 +1126,11 @@ footer li {
     margin-bottom: 20px;
   }
 
+  .big_ticket_2 img {
+    object-fit: cover;
+    height: 400px;
+  }
+
   main {
     padding-bottom: 0px;
   }
