@@ -809,8 +809,6 @@ ul li {
 .ul {
   width: 600px;
   display: flex;
-  /* border: 2px black solid; */
-  /* justify-content: space-between; */
 }
 
 footer li {
@@ -1007,9 +1005,9 @@ footer li {
     font-size: 40px;
   }
 
-  .mini {
+  /* .mini {
     display: none;
-  }
+  } */
   nav {
     display: none;
   }
@@ -1131,10 +1129,32 @@ footer li {
   main {
     padding-bottom: 0px;
   }
+
+  .section_1 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 10px;
+  }
+
+  .Explorer {
+    flex-shrink: 0;
+    width: 25%;
+    padding-left: 3px;
+  }
+
+  .Explorer i {
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  .Explorer div {
+    font-size: 13px;
+  }
 }
 
-@media (max-width: 690px) {
+/* @media (max-width: 690px) {
   .Explorer {
     font-size: 10px;
   }
-}
+} */
