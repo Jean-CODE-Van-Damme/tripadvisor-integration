@@ -690,7 +690,7 @@ nav {
   opacity: 0.8;
 }
 
-.big_heart i {
+/* .big_heart i {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -702,6 +702,25 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
+} */
+
+.big_heart {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+}
+
+.big_heart i {
+  position: absolute;
+  top: 9px;
+  right: 12px;
+  font-size: 20px;
   color: black;
 }
 
@@ -749,7 +768,7 @@ nav {
   font-size: 12px;
 }
 
-.big_heart_2 i {
+/* .big_heart_2 i {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -761,6 +780,25 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
+} */
+
+.big_heart_2 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+}
+
+.big_heart_2 i {
+  position: absolute;
+  top: 9px;
+  right: 12px;
+  font-size: 20px;
   color: black;
 }
 
@@ -1110,17 +1148,18 @@ footer li {
     width: 80%;
   }
 
-  .big_heart i {
+  /* .big_heart i {
     left: 510px;
-  }
+    background-color: gold;
+  } */
 
   .big_ticket_2 {
     width: 80%;
   }
 
-  .big_heart_2 i {
+  /* .big_heart_2 i {
     left: 500px;
-  }
+  } */
 
   .big_bloc_photo_2 {
     margin-bottom: 20px;
@@ -1158,8 +1197,22 @@ footer li {
   }
 }
 
-/* @media (max-width: 690px) {
+@media (max-width: 425px) {
   .Explorer {
-    font-size: 10px;
+    /* border: 2px red solid; */
+    padding: 5px 0px;
+    justify-content: center;
+    align-items: center;
   }
-} */
+
+  .Explorer i {
+    font-size: 13px;
+    margin-left: 4px;
+    /* border: 2px blue solid; */
+  }
+  .Explorer div {
+    font-size: 10px;
+    margin-left: 2px;
+    /* border: 2px green solid; */
+  }
+}
